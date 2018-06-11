@@ -1,0 +1,401 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: '微软雅黑';
+}
+body{
+	background: #f2f2f2;
+}
+ul, li{
+	list-style: none;
+}
+.fLeft{
+	float: left;
+}
+.fRight{
+	float: right;
+}
+
+
+
+.headerDiv{
+	width: 100%;
+	height: 120px;
+	background: #003380;
+}
+.headerDiv .welcome{
+	width: 1000px;
+	height: 20px;
+	margin: auto;
+	overflow: hidden;
+	border-bottom: 1px dashed #99ccff;
+}
+.headerDiv .welcome p{
+	font-size: 14px;
+	line-height: 20px;
+	color: #99ccff;
+}
+.headerDiv .welcome .wcWords{
+	float: left;
+}
+.headerDiv .welcome .telNum{
+	float: right;
+}
+.headerDiv .header{
+	width: 1000px;
+	height: 100px;
+	margin: auto;
+	overflow: hidden;
+}
+.headerDiv .header .imgLogo{
+	float: left;
+	height: 100%;
+}
+.headerDiv .header .imgLogo img{
+	margin-top: 15px;
+}
+.headerDiv .header .mainTtl{
+	width: 100%;
+	text-align: center;
+	height: 100%;
+}
+.headerDiv .header .mainTtl h1{
+	font-size: 48px;
+	font-family: '华文新魏';
+	color: #cc2900;
+	line-height: 100px;
+}
+.mainDiv{
+	width: 1000px;
+	margin: 0 auto;
+	background: #fff;
+}
+.navDiv{
+	width: 100%;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	background: #0052cc;
+	height: 24px;
+	overflow: hidden;
+}
+.navDiv ul{
+	list-style: none;
+}
+.navDiv ul li{
+	display: inline-block;
+	width: 16%;
+	text-align: center;
+}
+.navDiv ul li a{
+	color: #fff;
+	line-height: 24px;
+	text-decoration: none;
+}
+.navDiv ul li a:hover{
+	font-weight: bold;
+	color: #cc2900;
+}
+
+.bannerDiv{
+	width: 100%;
+	background: #fff;
+	overflow: hidden;
+	background: #cce5ff;
+}
+.bannerDiv .loginDiv{
+	width: 240px;
+	float: left;
+	text-align: center;
+	position: relative;
+	height: 300px;
+}
+.bannerDiv .loginDiv .lgDiv{
+	width: 100%;
+	margin-top: 10px;
+}
+.bannerDiv .loginDiv .loginTtl h3{
+	line-height: 32px;
+	height: 32px;
+	font-size: 16px;
+}
+.bannerDiv .loginDiv .lgDiv label{
+	display: block;
+	height: 24px;
+	margin: 32px auto;
+}
+.bannerDiv .loginDiv .lgDiv label input{
+	line-height: 24px;
+	height: 24px;
+	border-radius: 5px;
+	border: 1px solid #0066cc;
+	text-align: center;
+	width: 70%;
+}
+.bannerDiv .loginDiv .loginBtn{
+	margin: 20px 0;
+}
+.bannerDiv .loginDiv .loginBtn button{
+	width: 80px;
+	border: none;
+	background: #3399ff;
+	height: 24px;
+	line-height: 24px;
+	color: #fff;
+	border-radius: 5px;
+	margin: 20px 10px 0;
+	cursor: pointer;
+}
+.bannerDiv .loginDiv .loginBtn button:hover{
+	box-shadow: 0 0 5px #3399ff;
+}
+.bannerDiv .loginDiv .telDiv{
+	width: 100%;
+	border-top: 1px dashed #bfbfbf;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.bannerDiv .loginDiv .telDiv .telNum{
+	font-size: 14px;
+	line-height: 28px;
+}
+.bannerDiv .banner{
+	width: 750px;
+	height: 300px;
+	float: right;
+	position: relative;
+	/*overflow: hidden;*/
+}
+.bannerDiv .banner ul li{
+	float: left;
+	/*display: inline-block;*/
+	margin: 0;
+	width: 750px;
+	height: 300px;
+}
+.bannerDiv .banner ul li img{
+	width: 750px;
+	height: 300px;
+	margin: 0;
+}
+.bannerDiv .banner #bannerList{
+	position: relative;
+	left: 0;
+	top: 0;
+}
+.bannerDiv .banner #chsCclDiv{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 24px;
+	text-align: center;
+}
+.bannerDiv .banner #chsCclDiv .circle{
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border: 8px solid #fff;
+	border-radius: 8px;
+	cursor: pointer;
+	opacity: .7;
+	margin: 0 5px;
+}
+.bannerDiv .banner #chsCclDiv .crtCcl{
+	border: 10px solid #fff;
+	border-radius: 10px;
+}
+.funcDiv{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 1px;
+	background: #0052cc;
+}
+.funcDiv .funcCtnr{
+	width: 50%;
+	margin: 0;
+}
+.funcDiv .funcLeft{
+	float: left;
+}
+.funcDiv .funcRight{
+	float: right;
+}
+.funcDiv .funcCtnr .func{
+	float: right;
+	width: 80%;
+}
+.funcDiv .funcCtnr h3{
+	float: left;
+	width: 48px;
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin-left: 10px;
+	color: #fff;
+	margin-top: 6px;
+}
+.funcDiv .funcCtnr .func ul li{
+	display: inline-block;
+	width: 130px;
+	text-align: center;
+}
+.funcDiv .funcCtnr .func ul li a{
+	color: #fff;
+	font-size: 14px;
+	line-height: 24px;
+	text-decoration: none;
+}
+.funcDiv .funcCtnr .func ul li a:hover{
+	color: #ff0000;
+}
+.mainCont{
+	width: 100%;
+	margin-top: 10px;
+	overflow: hidden;
+}
+.mainCont .contDiv{
+	width: 45%;
+	padding: 10px;
+}
+.mainCont .contDiv .contTtl{
+	width: 100%;
+	height: 32px;
+	border-bottom: 1px dashed #ccc;
+}
+.mainCont .contDiv .contTtl h4{
+	line-height: 32px;
+	font-family: '华文新魏';
+	font-size: 24px;
+}
+.mainCont .contDiv .contTtl .moreInfor{
+	font-size: 12px;
+	color: #111;
+	text-decoration: none;
+	line-height: 32px;
+}
+.mainCont .contDiv .contTtl .moreInfor:hover{
+	color: #ff0000;
+}
+.mainCont .contDiv .content{
+	width: 100%;
+}
+.mainCont .contDiv .content ol{
+	margin-left: 10px;
+}
+.mainCont .contDiv .content>ol li{
+	height: 24px;
+	padding-left: 10px;
+	background: url(../img/rightArrow.png) no-repeat;
+	background-position: -2px 8px;
+	background-size: 8px 8px;
+}
+.mainCont .contDiv .content>ol li a{
+	display: inline-block;
+	width: 100%;
+	font-size: 12px;
+	color: #000;
+	line-height: 24px;
+}
+.mainCont .contDiv .content>ol li a:hover{
+	color: #ff0000;
+	font-size: 14px;
+}
+.mainCont .contDiv .content>ol li a .cont{
+	width: 80%;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.mainCont .procedureDiv .content .proceDiv, .mainCont .procedureDiv .content .tips{
+	width: 45%;
+}
+.mainCont .procedureDiv .content .proceDiv{
+	border: 1px dashed #ff6666;
+}
+.mainCont .procedureDiv .content .proceDiv ul li{
+	line-height: 24px;
+	font-size: 14px;
+	text-align: center;
+}
+.mainCont .procedureDiv .content ul li img{
+	width: 14px;
+}
+.mainCont .procedureDiv .content .tips h5{
+	line-height: 32px;
+}
+.mainCont .procedureDiv .content .tips ol li{
+	line-height: 24px;
+	font-size: 12px;
+	list-style: decimal;
+	margin-left: 10px;
+}
+#profess{
+	width: 100%;
+	font-size: 12px;
+	text-align: center;
+	background: #ccc;
+	margin-top: 10px;
+}
+#profess tr th, #profess tr td{
+	height: 28px;
+	line-height: 28px;
+	background: #fff;
+}
+#profess tr th{
+	background: #e0ebeb;
+}
+#profess tr td a{
+	display: inline-block;
+	background: #3399ff;
+	color: #fff;
+	width: 50px;
+	height: 24px;
+	margin: 2px 1px;
+	text-decoration: none;
+	border-radius: 2px;
+	line-height: 24px;
+}
+#profess tr td a:hover{
+	color: #ff0000;
+}
+.footer{
+	width: 100%;
+	background: #e5f2ff;
+	overflow: hidden;
+}
+.footer .footerCont{
+	width: 1000px;
+	margin: 0 auto;
+}
+.footer .footerCont .frdLink{
+	width: 48%;
+	border-right: 1px dashed #ccc;
+	padding: 10px;
+}
+.footer .footerCont .frdLink ul{
+	margin-left: 10px;
+}
+.footer .footerCont .frdLink ul li{
+	display: inline-block;
+	width: 200px;
+	text-align: center;
+	margin: 0 10px;
+}
+.footer .footerCont .frdLink ul li a{
+	font-size: 12px;
+	line-height: 20px;
+	color: #000;
+	text-decoration: none;
+}
+.footer .footerCont .techInfor{
+	width: 47%;
+	padding: 10px;
+}
+.footer .footerCont .techInfor .imgDiv{
+	width: 100%;
+	text-align: center;
+}
+.footer .footerCont .techInfor img{
+	margin: 10px auto;
+}
