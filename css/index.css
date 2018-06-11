@@ -312,6 +312,7 @@ ul, li{
 }
 .mainCont .procedureDiv .content .proceDiv{
 	border: 1px dashed #ff6666;
+	margin-top: 10px;
 }
 .mainCont .procedureDiv .content .proceDiv ul li{
 	line-height: 24px;
